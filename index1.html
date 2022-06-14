@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ThE blAck</title>
+
+
+</head>
+
+
+
+<style type="text/css">
+	* {
+		font-family: 'Noto Sans KR', sans-serif;
+		list-style: none;
+		text-decoration: none;
+	}
+
+	body {
+		border-collapse: collapse;
+		margin: 0px;
+	}
+
+	.container {
+		background-image: url("https://i.postimg.cc/HWS1MdMg/henry-co-tqu0-IOMai-U8-unsplash-4.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center; 
+		width: 100%;
+		height: 480px;
+	}
+
+
+	.navibar {
+		display: flex;
+		width: 1280px;
+		margin: auto;
+		height: 86px;
+	}
+
+	.navibar #logo{
+		display: flex;
+		line-height: 86px;
+		margin-top: 20px;
+		margin-left: 15px;
+	}
+
+	.navibar #logo img{
+		width: 40%;
+		height: 65px;
+		margin-top: 15px;
+	}
+
+	.navibar #menu {
+		display: flex;
+		justify-content: flex-end;
+		line-height: 86px;
+		width: calc(1280px - 300px);
+		margin-top: 30px;
+		margin-right: 10px;
+	}
+
+	.navibar #menu li{
+		margin-left: 50px;
+	}
+
+	.navibar #menu li a:hover{
+		text-shadow: 1px 1px #0A6E0A, 2px 2px #288C28, 3px 3px #4AB34A, 0px 0px 30px white;
+	}
+
+	.navibar #menu li a{
+		line-height: 60px;
+		text-decoration: none;
+		display: block;
+		color: black;
+	}
+
+
+	h2{
+		text-align: center;
+		font-weight: 100;
+		margin-top: 80px;
+
+	}
+	h1{
+		text-align: center;
+		font-weight: 400;
+		font-size: 50px;
+	}
+	h1 b{
+		color: #006400;
+	}
+	h3{
+		text-align: center;
+		font-weight: 100;
+	}
+
+
+	.navi2{
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.navi2 #menu2{
+		position: relative;
+		top: -40px;
+		display: flex;
+		width: 1000px;
+		background: white;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+		border-radius: 100px;
+		margin: auto;
+	}
+
+	.navi2 #menu2 li{
+		flex: 1;
+		height: 80px;
+	}
+
+	.navi2 #menu2 li a{
+		color: black;
+	}
+
+	.navi2 #menu2 li a:hover{
+		text-shadow: 1px 1px #0A6E0A, 2px 2px #288C28, 3px 3px #4AB34A, 0px 0px 30px white;
+	}
+
+	.boxy{
+		text-align: center;
+		margin-top: 31px;
+		height: 31px;
+		padding-right: 10px;
+		color: black;
+	}
+
+
+
+
+
+	.cardy{
+		width: 1280px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+
+    .card{
+
+        width: 300px;
+        height: 425px; 
+        border-radius: 5px;
+        background: linear-gradient(90deg, #F4F5F7 545px, #F6E9E2 455px);
+        border-color: black;
+        box-shadow: 5px 5px 5px #dcdcdc;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        margin-left: 8.5px;
+        margin-right: 7.5px;
+        display: inline-block;
+    }
+
+
+    .poster{
+        width: 100%;
+        display: block;
+        align-content: center;
+
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+
+    .line{
+        margin-left: 160px;
+        border-bottom: 1px solid black;
+    }
+
+
+    h4{
+    	font-size: 16px;
+    	margin-top: 15px;
+    	margin-bottom: 5px;
+    	margin-right: 20px;
+    	text-align: right;
+    }
+
+    h5{
+    	font-size: 14px;
+    	font-weight: 600;
+    	text-align: right;
+    	margin-top: 5px;
+    	margin-bottom: 25px;
+    	margin-right: 20px;
+    }
+
+    h6{
+    	font-size: 14px;
+    	font-weight:500;
+    	text-align: left;
+    	margin-top: 20px;
+    	margin-bottom: 0px;
+    	margin-left: 20px;
+    }
+
+    .ground{
+    	background-image: url("https://i.postimg.cc/SRdgXN2X/henry-co-tqu0-IOMai-U8-unsplash-5.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center; 
+		width: 100%;
+		height: 220px;
+    }
+
+    .logos{
+		display: flex;
+		width: 1280px;
+		margin: auto;
+		height: 86px;
+	}
+
+	.logos #logo2{
+		display: flex;
+		line-height: 86px;
+		margin-top: 20px;
+		margin-left: 15px;
+	}
+
+	.logos #logo2 img{
+		width: 25%;
+		height: 70px;
+		margin-top: 40px;
+	}
+	.logos p{
+		text-align: right;
+		margin-top: 40px;
+	}
+
+	
+</style>
+
+
+
+<body>
+
+<div class="container">
+    <div class="navibar">
+     	<a id="logo" href="index1.html">
+    	  <img src ="https://i.postimg.cc/kXdr1WR7/IMG-1127-4.png"></a>
+      
+     	<ul id="menu">
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="index2.html">CATEGORY</a></li>
+        <li><a href="#">SEARCH</a></li>
+        <li><a href="#">LOG IN</a></li>
+    	</ul>
+    </div>
+
+	<h2>홍차 입문자를 위한</h2>
+	<h1><b>T</b>h<b>E</b> bl<b>A</b>ck</h1>
+	<h3>퍼스널 홍차 쇼핑 사이트</h3>
+
+</div>
+    
+
+    <div class="navi2">
+ 
+     	<ul id="menu2">
+     	<li><div class="boxy"><a href="index1.html"><b>BEST</b></a></div></li>
+        <li><div class="boxy"><a href="index2.html">FRANCE</a></div></li>
+        <li><div class="boxy"><a href="#">SRI LANKA</a></div></li>
+        <li><div class="boxy"><a href="#">ENGLAND</a></div></li>
+        <li><div class="boxy"><a href="#">SINGAPORE</a></div></li>
+        <li><div class="boxy"><a href="#">KOREA</a></div></li>
+    	</ul>
+    </div>
+
+
+<div class="cardy">
+    <div class="card"><a href="index3.html">
+    	<h6>FRANCE</h6>
+    	<h4>마리아쥬 프레르</h4>
+    	<div class="line"></div>
+        <h5><i>Mariage Frères</i></h5>
+        <img class="poster" src="https://i.postimg.cc/NMj7YP3t/the-bolero-mariage-freres-boite-100g.jpg" width="100%">
+    </a>
+    </div>
+    <div class="card">
+    	<h6>FRANCE</h6>
+    	<h4>포숑</h4>
+    	<div class="line"></div>
+        <h5><i>FAUCHON</i></h5>
+        <img class="poster" src="https://i.postimg.cc/FHHW3mG3/pic1.jpg" width="100%">
+    </div>
+        <div class="card">
+    	<h6>SRI LANKA</h6>
+    	<h4>딜마</h4>
+    	<div class="line"></div>
+        <h5><i>DILMAH</i></h5>
+        <img class="poster" src="https://i.postimg.cc/7PRpx5Nd/60ad9fe3d82a5129aa2090c45c0e3869-1606367443.jpg" width="100%">
+    </div>
+    <div class="card">
+    	<h6>SRI LANKA</h6>
+    	<h4>베질루르</h4>
+    	<div class="line"></div>
+        <h5><i>BASILUR</i></h5>
+        <img class="poster" src="https://i.postimg.cc/1znZ0DMG/1610608740668.jpg" width="100%">
+    </div>
+
+
+</div>
+
+    <div class="ground">
+    	<div class="logos">
+    		<a id="logo2" href="#">
+    			<img src ="https://i.postimg.cc/kXdr1WR7/IMG-1127-4.png"></a>    
+    		<p>copyright HyunJi Kim<br>zzi803@tukorea.ac.kr<br>support with<br>Tech University of Korea</p>	
+    	</div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>
